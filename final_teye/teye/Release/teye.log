@@ -1,0 +1,45 @@
+﻿生成启动时间为 2016/1/15 18:24:23。
+     1>项目“C:\Users\NListen\Desktop\really_final_teye - 副本\teye\teye.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\software\Visual Studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\interface.cpp ..\teye.cpp
+         interface.cpp
+     1>..\interface.cpp(93): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>..\interface.cpp(96): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>..\interface.cpp(99): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(299) : 参见“setbuf”的声明
+     1>..\interface.cpp(142): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>..\interface.cpp(178): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>..\interface.cpp(201): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>..\interface.cpp(218): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>..\interface.cpp(279): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>..\interface.cpp(367): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\software\Visual Studio\VC\include\stdio.h(311) : 参见“sscanf”的声明
+         teye.cpp
+     1>..\teye.cpp(51): warning C4305: “初始化”: 从“double”到“float”截断
+     1>..\teye.cpp(1273): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\teye.cpp(1292): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\teye.cpp(1324): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\teye.cpp(1363): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\teye.cpp(1363): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\teye.cpp(1365): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>..\teye.cpp(1365): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\teye.cpp(1341): warning C4101: “bestChild”: 未引用的局部变量
+     1>..\teye.cpp(1556): warning C4101: “n”: 未引用的局部变量
+       Link:
+         F:\software\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\NListen\Desktop\really_final_teye - 副本\Release\teye.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\NListen\Desktop\really_final_teye - 副本\Release\teye.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\NListen\Desktop\really_final_teye - 副本\Release\teye.lib" /MACHINE:X86 /SAFESEH Release\gtp.obj
+         Release\interface.obj
+         Release\teye.obj
+         正在生成代码
+         已完成代码的生成
+         teye.vcxproj -> C:\Users\NListen\Desktop\really_final_teye - 副本\Release\teye.exe
+     1>已完成生成项目“C:\Users\NListen\Desktop\really_final_teye - 副本\teye\teye.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.85
